@@ -1,0 +1,137 @@
+
+{
+  "pricing": [
+    {
+      "quantity": 1,
+      "price": 199,
+      "shipping": 89,
+      "popular": false,
+      "stripeLink": "https://buy.stripe.com/test_example1",
+      "mercadoPagoLink": "https://www.mercadopago.com.mx/checkout/v1/redirect?pref_id=example1",
+      "description": "Ideal para probar la marca"
+    },
+    {
+      "quantity": 2,
+      "price": 360,
+      "shipping": 99,
+      "popular": true,
+      "stripeLink": "https://buy.stripe.com/test_example2", 
+      "mercadoPagoLink": "https://www.mercadopago.com.mx/checkout/v1/redirect?pref_id=example2",
+      "description": "Perfecto para escaladores regulares"
+    },
+    {
+      "quantity": 3,
+      "price": 510,
+      "shipping": 0,
+      "popular": false,
+      "stripeLink": "https://buy.stripe.com/test_example3",
+      "mercadoPagoLink": "https://www.mercadopago.com.mx/checkout/v1/redirect?pref_id=example3",
+      "description": "Mejor precio + envío gratis"
+    }
+  ],
+  "shipping": {
+    "standard": {
+      "cost": 89,
+      "costMax": 99,
+      "time": "2-4 días hábiles",
+      "coverage": "Todo México"
+    },
+    "free": {
+      "minimumQuantity": 3,
+      "time": "2-4 días hábiles",
+      "coverage": "Todo México"
+    }
+  },
+  "product": {
+    "name": "Summit Origins Magnesia",
+    "weight": "100g",
+    "purity": "98%",
+    "composition": "Carbonato de magnesio (MgCO₃)",
+    "sessionsPerUnit": {
+      "min": 10,
+      "max": 15
+    },
+    "idealFor": [
+      "Boulder",
+      "Escalada deportiva", 
+      "Gimnasios",
+      "Rocódromos"
+    ]
+  },
+  "contact": {
+    "whatsapp": {
+      "number": "525512345678",
+      "message": "Hola! Me interesa la magnesia Summit Origins"
+    },
+    "hours": {
+      "weekdays": "9:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 6:00 PM",
+      "sunday": "Cerrado"
+    }
+  },
+  "analytics": {
+    "googleAnalyticsId": "GA_MEASUREMENT_ID",
+    "facebookPixelId": "",
+    "hotjarId": ""
+  },
+  "seo": {
+    "title": "Summit Origins - Magnesia Premium para Escalada | 100g",
+    "description": "Magnesia de alta pureza para escaladores exigentes. Formato 100g ideal para gimnasios. Envío gratis desde 3 unidades.",
+    "keywords": "magnesia escalada, chalk climbing, carbonato magnesio, boulder, rocódromo, escalada México",
+    "ogImage": "https://cdn.abacus.ai/images/fc682cb6-7de2-4c77-be10-4314cde53a73.png"
+  },
+  "content": {
+    "testimonials": [
+      {
+        "name": "Carlos M.",
+        "rating": 5,
+        "text": "La mejor magnesia que he probado. La textura es perfecta y dura mucho más que otras marcas.",
+        "level": "Boulder V6-V7"
+      },
+      {
+        "name": "Ana Rodriguez", 
+        "rating": 5,
+        "text": "En nuestro gimnasio es la magnesia más popular. Los clientes siempre vuelven a comprar Summit Origins.",
+        "level": "Propietaria Climbing Zone"
+      },
+      {
+        "name": "Miguel Santos",
+        "rating": 5, 
+        "text": "Perfecta para competiciones. No irrita la piel y mantiene las manos secas durante toda la sesión.",
+        "level": "Escalada Deportiva 7c+"
+      }
+    ],
+    "features": [
+      {
+        "title": "98% de Pureza",
+        "description": "Carbonato de magnesio premium sin aditivos que comprometan tu agarre"
+      },
+      {
+        "title": "Textura Perfecta", 
+        "description": "Balance ideal entre finura y adherencia para máximo control"
+      },
+      {
+        "title": "Absorción Superior",
+        "description": "Mantiene las manos secas durante sesiones intensas y prolongadas"  
+      },
+      {
+        "title": "Formato 100g",
+        "description": "Tamaño perfecto para gimnasios, portátil y con precio accesible"
+      }
+    ]
+  },
+  "policies": {
+    "returnPeriod": 30,
+    "returnConditions": "Producto no utilizado en empaque original",
+    "shippingInsurance": true,
+    "paymentMethods": ["Stripe", "MercadoPago"],
+    "acceptedCards": ["Visa", "Mastercard", "American Express"]
+  },
+  "inventory": {
+    "inStock": true,
+    "stockLevel": "high",
+    "restockDate": null,
+    "maxOrderQuantity": 10
+  },
+  "lastUpdated": "2024-08-19T12:00:00Z"
+}
